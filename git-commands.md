@@ -32,3 +32,14 @@ This file is my living Git cheat sheet. I will keep adding commands as I learn t
   - Example: `git diff --staged`
 - `git log --oneline` - Shows commit history in a compact format.
   - Example: `git log --oneline`
+
+## Branching & Undo
+
+- `git branch` - Lists branches or creates a new one when given a name.
+  - Example: `git branch feature-notes`
+- `git switch <branch>` - Moves to another branch.
+  - Example: `git switch feature-notes`
+- `git checkout -- <file>` - Restores a file from the last commit.
+  - Example: `git checkout -- git-commands.md`
+- `git restore <file>` - Modern way to discard changes in a file.
+  - Example: `git restore git-commands.md`
