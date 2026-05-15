@@ -43,3 +43,14 @@ This file is my living Git cheat sheet. I will keep adding commands as I learn t
   - Example: `git checkout -- git-commands.md`
 - `git restore <file>` - Modern way to discard changes in a file.
   - Example: `git restore git-commands.md`
+
+## Remote & Collaboration
+
+- `git remote -v` - Shows the remote repository URLs.
+  - Example: `git remote -v`
+- `git push` - Sends local commits to a remote branch.
+  - Example: `git push origin master`
+- `git pull` - Fetches and merges remote changes into the current branch.
+  - Example: `git pull origin master`
+- `git clone <url>` - Copies a remote repository to your machine.
+  - Example: `git clone https://github.com/user/repo.git`
